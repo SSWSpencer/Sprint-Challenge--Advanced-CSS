@@ -30,19 +30,66 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
+
+
+
+
+
+
+
+
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+---Responsive websites resize the content at any point in the size of the website. Adaptive websites resize content at specific points.
+
+
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+---Mobile first: The website's initial layout was designed to suit a mobile browser, and the desktop environment (for example) is designed to scale up from the mobile version (min-width: XXXXpx)
+---Desktop first: The website's initial layout was designed to suit a mobile browser, and the movile environment (for example) is designed to scale down from the desktop version (max-width: XXXpx)
+
+
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+---It allows 1rem to equal 10px. The default font size for browsers is 16px, and 62.5% of that is 10px. So that allows rems to be used in an easier-to-understand way.
+
+
+
+
+
 4. How would you describe preprocessing to someone new to CSS?
+
+---Preprocessing allows a programmer to use different tools with CSS (For example less). It allows the programmer to use syntax not typically allowed in regular CSS, which means they can utilize (in less for example) nesting, mixins, variables, etc. This can make it easier to understand what is actually going on in the CSS. When a Less file is made, it gets compiled by a tool in the terminal, converting it to CSS so it is actually viewable on the web.
+
+
+
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+---Favorite concept is using mixins. I haven't found a lot of practical uses for them yet, but the parametric mixins I can see very easily how they will become useful in the future.
+
+--Concept that gives me most trouble are the breakout variables (@whatever ~"max-width: 100px"). Mostly because the initial format is difficult to remember, but I should understand it more as soon as I am able to remember how to declare them properly.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Project Set Up
 
