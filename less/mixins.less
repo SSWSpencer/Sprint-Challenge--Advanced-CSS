@@ -1,1 +1,37 @@
 // Mixins Here
+@phone: ~"(max-width: 500px)";
+
+.flexDir(@direction){
+    display: flex;
+    flex-direction: @direction;
+}
+
+.setButton(@height; @width){
+    background: @btn-bg-color;
+          color: @porcelain;
+          font-family: 'Ubuntu', sans-serif;
+          border-radius: 10px;
+          width: @width;
+          padding:@height;
+          &:hover{
+            background: @porcelain;
+            color: @btn-bg-color;
+            border: 1px solid @btn-bg-color;
+          }
+}
+/*
+.setButton(@height; @width){
+    margin: 0 auto;
+    padding: @height @width;
+    text-decoration: none;
+    background: @btn-bg-color;
+    color: @porcelain;
+    border-radius: 10px;
+    text-align: center;
+    &:hover{
+        background: @porcelain;
+        color: @btn-bg-color;
+        border: 1px solid @btn-bg-color;
+    }
+}
+*/
